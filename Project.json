@@ -1,0 +1,39 @@
+{
+  "Project": [
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/12-SelfPortfolio2.jpeg",
+      "DemoWebLink": "http://127.0.0.1:5500/index.html",
+      "CodeLink": "",
+      "data_aos": "fade-right"
+    },
+    {
+      "Technology": "React",
+      "ProjectDemo": "./Projects/9-Calculator.png",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-down"
+    },
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/7-MusicWebsite.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-left"
+    },
+    {
+      "Technology": "React",
+      "ProjectDemo": "./Projects/7-MusicWebsite.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-up"
+    },
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/12-SelfPortfolio2.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-right"
+    }
+  ]
+}

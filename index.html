@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chhotu`s-WebDev</title>
+    <!--======================Google Fonts=====================-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--======================Font Awesome=====================-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--======================Our CSS file=====================-->
+    <link rel="stylesheet" href="./commonUsedCss.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- ===================aos css cdn=================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!--======================Favicon=====================-->
+    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
+  </head>
+  <body>
+    <header
+      class="headerMain headingBackgroudColor mainTextColor w100 flex"
+      id="Move"
+    >
+      <div class="Responsivness" id="Responsivness" onclick="ChangeIcon()">
+        <i class="fa-solid fa-bars ResponsiveIcon" if="ResponsiveIcon"></i>
+      </div>
+
+      <nav class="Navbar w100 flexsa">
+        <h1 class="mainLogo" data-aos="fade-right">
+          <a href="#Home">Chhotu`s</a>
+        </h1>
+
+        <ul class="NavbarList w75 flexsb" data-aos="fade-left">
+          <li class="NavbarItem Active"><a href="#Home">Home</a></li>
+          <li class="NavbarItem"><a href="#Projects">Project</a></li>
+          <li class="NavbarItem"><a href="#Services">Services</a></li>
+          <li class="NavbarItem"><a href="#About">About</a></li>
+          <li class="NavbarItem"><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <main class="mainSection">
+      <!--- Home Section start -->
+      <section id="Home" class="homeSection">
+        <!--======================Home Content=====================-->
+        <div class="Home-Left" data-aos="zoom-in">
+          <div class="Home-LeftTop">
+            <p>Hii,</p>
+            <p>I am <span>Chhotu</span></p>
+            <p>I am very passionate for</p>
+            <p><span>Web Development </span>as</p>
+            <p>Well as <span class="wrap"></span></p>
+          </div>
+          <div class="Home-LeftBottom flex gap2rem">
+            <button class="btnBGC">Hire Me</button>
+            <button class="btnBorder">Resume</button>
+          </div>
+        </div>
+        <div class="Home-Right" data-aos="zoom-out">
+          <figure>
+            <img
+              src="./Assets/Chhotu.png"
+              alt="DeveloperPic"
+              id="Home-Right-Image"
+            />
+          </figure>
+        </div>
+      </section>
+      <!--- Home Section End -->
+
+      <!-- About Section start -->
+      <section class="About" id="About">
+        <h2 class="SectionHeading" data-aos="fade-left">About me</h2>
+        <div class="Container flexsa">
+          <div class="AboutLeft" data-aos="fade-right">
+            <article>
+              I am a passionate web development with a strong command of
+              programming languages, data structures, and algorithms. I am
+              currently pursuing a Bachelor of Computer Applications and have
+              experience working on a variety of web development projects. I am
+              also proficient in desktop application development using Java,
+              AWT, and Spring. I am a team player and have a strong work ethic.
+              I am always looking for new challenges and opportunities to learn
+              and grow. I am confident that I would be a valuable asset to your
+              team.
+            </article>
+          </div>
+
+          <div class="AboutRight">
+            Skills:-
+            <ul class="Skills gridContainer">
+              <li class="Skill" data-aos="fade-left">
+                <figure><img src="./Assets/CPP.png" alt="" />C/C++</figure>
+              </li>
+              <li class="Skill" data-aos="fade-down">
+                <figure><img src="./Assets/DSA.png" alt="" />DSA</figure>
+              </li>
+              <li class="Skill" data-aos="fade-right">
+                <figure><img src="./Assets/Java.png" alt="" />Java</figure>
+              </li>
+              <li class="Skill" data-aos="fade-right">
+                <figure>
+                  <img src="./Assets/html-css.png" alt="" />HTML/CSS
+                </figure>
+              </li>
+              <li class="Skill" data-aos="fade-up">
+                <figure>
+                  <img src="./Assets/javascript.png" alt="" />JavaScript
+                </figure>
+              </li>
+              <li class="Skill" data-aos="fade-left">
+                <figure><img src="./Assets/api.png" alt="" />API</figure>
+              </li>
+              <li class="Skill" data-aos="fade-left">
+                <figure>
+                  <img src="./Assets/mongodb.png" alt="" />MongoDB
+                </figure>
+              </li>
+              <li class="Skill" data-aos="fade-down">
+                <figure><img src="./Assets/react.png" alt="" />React</figure>
+              </li>
+              <li class="Skill" data-aos="fade-right">
+                <figure><img src="./Assets/sql.png" alt="" />MySQL</figure>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- About Section End -->
+
+      <!-- Project Section Start -->
+      <section class="Projects" id="Projects">
+        <h2 class="SectionHeading" data-aos="fade-left">Projects</h2>
+        <header class="ProjectHeading">
+          <ul class="ProjectHeader">
+            <li class="techUsed" value="JS">JS</li>
+            <li class="techUsed" value="React">React</li>
+          </ul>
+        </header>
+        <div class="ProjectsCard"></div>
+        <a href="#" class="SeeMoreProjects"
+          >See More Projects <i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </section>
+      <!-- Project Section End -->
+
+      <!-- Services Section start -->
+      <section class="Services" id="Services">
+        <h2 class="SectionHeading" data-aos="fade-left">Services Offers</h2>
+        <div class="ServicesCardsContainer">
+          <div class="ServiceCard">
+            <div class="ServiceCardContainer">
+              <div class="Image">
+                <img src="./Assets/WebDevepment.jpg" alt="" />
+              </div>
+              <h2 class="ServiceName">Web Developments</h2>
+
+              <p class="AboutServices">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                illo voluptates culpa soluta, eaque hic similique harum iusto
+                voluptate beatae?
+              </p>
+            </div>
+          </div>
+
+          <div class="ServiceCard">
+            <div class="ServiceCardContainer">
+              <div class="Image">
+                <img src="./Assets/AppDevelopment.jpg" alt="" />
+              </div>
+              <h2 class="ServiceName">App Developments</h2>
+
+              <p class="AboutServices">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                illo voluptates culpa soluta, eaque hic similique harum iusto
+                voluptate beatae?
+              </p>
+            </div>
+          </div>
+
+          <div class="ServiceCard">
+            <div class="ServiceCardContainer">
+              <div class="Image">
+                <img src="./Assets/DesktopAppDevelopment.png" alt="" />
+              </div>
+              <h2 class="ServiceName">Desk. App Dev.</h2>
+
+              <p class="AboutServices">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                illo voluptates culpa soluta, eaque hic similique harum iusto
+                voluptate beatae?
+              </p>
+            </div>
+          </div>
+
+          <div class="ServiceCard">
+            <div class="ServiceCardContainer">
+              <div class="Image">
+                <img src="./Assets/SEO.jpg" alt="" />
+              </div>
+              <h2 class="ServiceName">SEO</h2>
+
+              <p class="AboutServices">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi
+                illo voluptates culpa soluta, eaque hic similique harum iusto
+                voluptate beatae?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services Section end -->
+
+      <!-- Contact Section start -->
+      <section class="Contact" id="Contact">
+        <h2 class="SectionHeading" data-aos="fade-left">Contact Me</h2>
+        <div class="ContactContainer">
+          <div class="SocialLink">
+            <div class="LinkedIn">
+              <i class="fa-brands fa-linkedin"></i>
+              <p>LinkedIn</p>
+              <a href="">Visit <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+            <div class="Github">
+              <i class="fa-brands fa-github"></i>
+              <p>Github</p>
+              <a href="">Visit <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+            <div class="Instagram">
+              <i class="fa-brands fa-square-instagram"></i>
+              <p>Instagram</p>
+              <a href="">Visit <i class="fa-solid fa-arrow-right"></i> </a>
+            </div>
+          </div>
+          <div class="ContactForm">
+            <form method="POST" class="form" autocomplete="off">
+              <div class="Name">
+                <input
+                  type="text"
+                  placeholder="First Name"
+                  name="FirstName"
+                  required
+                />
+
+                <input
+                  type="text"
+                  placeholder="Last Name"
+                  name="LastName"
+                  required
+                />
+              </div>
+              <input type="email" placeholder="Email" name="email" required />
+              <textarea
+                placeholder="Your Message"
+                name="Message"
+                required
+              ></textarea>
+              <button type="submit" class="Submit btnBGC">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Section End -->
+    </main>
+  </body>
+  <script src="./script.js"></script>
+  <!--===================aos js cdn================-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 500,
+      easing: "ease-in-sine",
+    });
+  </script>
+  <!--======================type.js cnd=====================-->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed(".wrap", {
+      strings: ["Programming", "Android Dev.", "Desk. app. dev.", "SEO"],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true,
+    });
+  </script>
+</html>

@@ -1,0 +1,97 @@
+/*=======================Colors======================*/
+:root {
+  --headingBackgroudColor: #8338ec;
+  --mainBackgroundColor: #2b2d42;
+  --mainTextColor: #f8f9fa;
+}
+
+.headingBackgroudColor {
+  background: linear-gradient(to right top, #2b2d42, #ff006e, #2b2d42);
+  background: linear-gradient(to right top, #ff0000, #ff6200, #ff0000);
+}
+
+.mainBackgroundColor {
+  background-color: var(--mainBackgroundColor);
+}
+
+.mainTextColor {
+  color: var(--mainTextColor);
+}
+
+.w100 {
+  width: 100%;
+}
+.w50 {
+  width: 50%;
+}
+.w75 {
+  width: 50%;
+}
+
+.flexsb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexsa {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gap2rem {
+  gap: 2rem;
+}
+
+.btnBGC {
+  background: #0000ff;
+  border: none;
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  border: 2px solid #0000ff;
+  transition: 0.5s;
+}
+.btnBorder {
+  padding: 0.2rem 1rem;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 2px solid #0000ff;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+.btnBGC:hover {
+  background-color: transparent;
+}
+.btnBorder:hover {
+  background-color: #0000ff;
+}
+
+.SectionHeading {
+  margin-left: 3rem;
+  border-bottom: 1px solid blue;
+  padding: 0 1rem;
+  display: inline-block;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 1rem auto;
+}
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...}*/
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...}  */

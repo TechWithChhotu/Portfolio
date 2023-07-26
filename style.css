@@ -1,0 +1,371 @@
+/*=======================Colors======================*/
+:root {
+  /* --headingBackgroudColor: #ff006e; */
+  /* --headingBackgroudColor: #ff006e; */
+  --mainBackgroundColor: #080b23;
+  --mainTextColor: #f8f9fa;
+}
+/*=======================Reset Default CSS======================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*======================Heading======================*/
+.headerMain {
+  background-color: var(--headingBackgroudColor);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 8vh;
+  font-size: 1.3rem;
+}
+
+.NavbarList .NavbarItem {
+  width: fit-content;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0.2rem 0.5rem;
+}
+.Active {
+  border-bottom: 2px solid #c8e0f8b1;
+  font-size: 1.4rem;
+}
+.Active a {
+  color: var(--mainBackgroundColor);
+}
+
+/*======================Main Section======================*/
+.mainSection {
+  background-color: var(--mainBackgroundColor);
+  color: var(--mainTextColor);
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+/*======================Home Section======================*/
+.homeSection {
+  height: 92vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Home-Left {
+  width: 25rem;
+  font-size: 1.7rem;
+}
+.Home-Left span {
+  color: limegreen;
+  font-size: 2rem;
+}
+.Home-LeftBottom {
+  margin-top: 2rem;
+
+  /* background-color: #ff9e00; */
+}
+.Home-LeftBottom button {
+  font-size: 1.3rem;
+  color: var(--mainTextColor);
+}
+
+.Home-Right img {
+  max-width: 250px;
+  border-radius: 10px 50px;
+  border: 1px solid yellow;
+}
+
+/*======================About Section======================*/
+.About {
+  height: 100vh;
+  width: 100%;
+}
+
+.AboutLeft {
+  width: 40%;
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.AboutRight {
+  width: 50%;
+}
+.Skills .Skill figure {
+  display: flex;
+  justify-content: space-around;
+  width: 170px;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid #3c6eea;
+  /* box-shadow: 2px 2px 1px #eae4e4, -2px -2px 1px #eae4e4; */
+  align-items: center;
+  color: black;
+  border-radius: 5px;
+  animation: ColorChager 3s linear infinite;
+  margin-top: 1.5rem;
+}
+
+.Skills .Skill img {
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #4c4ce0;
+}
+
+/*======================Project Section======================*/
+.ProjectCard {
+  width: 270px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #3c6eea;
+  border-radius: 5px;
+}
+.ProjectImage img {
+  width: 250px;
+  border-radius: 5px;
+}
+.ProjectBtns a button {
+  color: gray;
+}
+.ProjectsCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 1rem auto;
+}
+
+.ProjectHeader {
+  margin: auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: blue;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.ProjectHeader li {
+  transition: 0.5s;
+  border: 1px solid transparent;
+  padding: 0.2rem 0;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.ProjectHeader li:hover {
+  border: 1px solid white;
+}
+.SeeMoreProjects {
+  text-align: center;
+  display: block;
+}
+.SeeMoreProjects:hover {
+  color: rgb(39, 245, 39);
+}
+/*======================Services Section======================*/
+.Services {
+  padding: 2rem;
+}
+.ServiceCard {
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #0066ff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.ServiceCardContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ServiceCardContainer img {
+  width: 120px;
+  height: 120px;
+}
+.ServicesCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 1rem auto;
+}
+.ServiceName {
+  color: #0066ff;
+  text-align: center;
+}
+.AboutServices {
+  text-align: justify;
+  padding: 0.5rem;
+  color: black;
+}
+
+/*======================Contact Section======================*/
+.ContactContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  place-items: center;
+  margin: 1rem auto;
+}
+
+.SocialLink div {
+  width: 10rem;
+  height: 7rem;
+  background-color: white;
+  border-radius: 5px;
+  color: #080b23;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  margin: 1rem;
+  font-size: 1.3rem;
+
+  /* box-shadow: 2px 2px 1px #eae4e4, -2px -2px 1px #eae4e4; */
+  border: 2px solid #0066ff;
+}
+.SocialLink div p {
+  font-weight: 600;
+}
+.SocialLink div a {
+  font-size: 0.9rem;
+  color: #080b23;
+}
+
+.ContactForm {
+  width: 400px;
+}
+.form {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form input,
+.form textarea {
+  padding: 0.6rem;
+  margin: 1rem 0;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+}
+
+.form .Name {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form .Name input {
+  width: 45%;
+}
+
+.form input[type="email"],
+.form textarea {
+  min-width: 97%;
+}
+.form textarea {
+  height: 100px;
+}
+.Submit {
+  color: white;
+  font-size: 1.1rem;
+}
+/*======================Mouse Trail======================*/
+.trail {
+  /* className for the trail elements */
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 4px;
+  width: 4px;
+  border-radius: 3px;
+  background: teal;
+  animation: colorChange 0.5s linear infinite;
+}
+
+@keyframes colorChange {
+  20% {
+    background: #ae0202;
+  }
+  40% {
+    background: #0066ff;
+  }
+  60% {
+    background: #ffb700;
+  }
+  80% {
+    background: #53ff04;
+  }
+  100% {
+    background: rgb(255, 1, 120);
+  }
+}
+
+/*======================Media queries======================*/
+.Responsivness {
+  position: absolute;
+  left: 100%;
+  top: 0.2rem;
+  margin-left: 0.2rem;
+  display: none;
+  color: var(--mainBackgroundColor);
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  background: linear-gradient(to left bottom, blue, #ff9e00);
+  border-radius: 5px;
+  line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .Responsivness {
+    display: block;
+    cursor: pointer;
+  }
+  .NavbarList {
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+    margin-top: 1rem;
+  }
+  .Navbar {
+    flex-direction: column;
+  }
+  .headerMain {
+    width: 10rem;
+    height: 100vh;
+    flex-direction: column;
+    position: absolute;
+    transition: 0.5s;
+  }
+}

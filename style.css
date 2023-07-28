@@ -1,8 +1,6 @@
 /*=======================Colors======================*/
 :root {
-  /* --headingBackgroudColor: #ff006e; */
-  /* --headingBackgroudColor: #ff006e; */
-  --mainBackgroundColor: #080b23;
+  --mainBackgroundColor: #131111;
   --mainTextColor: #f8f9fa;
 }
 /*=======================Reset Default CSS======================*/
@@ -38,6 +36,12 @@ a {
   align-items: center;
   height: 8vh;
   font-size: 1.3rem;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+
+  /* box-shadow: 1px 1px 1px rgb(67, 65, 65); */
+  box-shadow: #353737 0px 0px 0px 0px, #2e2929 -1px -1px 6px 1px;
 }
 
 .NavbarList .NavbarItem {
@@ -51,7 +55,7 @@ a {
   font-size: 1.4rem;
 }
 .Active a {
-  color: var(--mainBackgroundColor);
+  color: var(--mainTextColor);
 }
 
 /*======================Main Section======================*/
@@ -76,13 +80,14 @@ a {
   font-size: 1.7rem;
 }
 .Home-Left span {
-  color: limegreen;
+  color: #7a95d8;
   font-size: 2rem;
 }
 .Home-LeftBottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
   margin-top: 2rem;
-
-  /* background-color: #ff9e00; */
 }
 .Home-LeftBottom button {
   font-size: 1.3rem;
@@ -94,10 +99,13 @@ a {
   border-radius: 10px 50px;
   border: 1px solid yellow;
 }
+.mainLogo a span {
+  color: red;
+}
 
 /*======================About Section======================*/
 .About {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -131,6 +139,10 @@ a {
 }
 
 /*======================Project Section======================*/
+.Projects {
+  height: fit-content;
+  width: 100%;
+}
 .ProjectCard {
   width: 270px;
   background-color: white;
@@ -183,6 +195,7 @@ a {
 .SeeMoreProjects:hover {
   color: rgb(39, 245, 39);
 }
+
 /*======================Services Section======================*/
 .Services {
   padding: 2rem;
@@ -256,7 +269,9 @@ a {
   font-size: 0.9rem;
   color: #080b23;
 }
-
+.SocialLink div:hover a {
+  color: red;
+}
 .ContactForm {
   width: 400px;
 }
@@ -299,6 +314,12 @@ a {
 .Submit {
   color: white;
   font-size: 1.1rem;
+}
+.Projects {
+  margin-top: 1rem;
+}
+.ProjectHeading {
+  margin-top: 2rem;
 }
 /*======================Mouse Trail======================*/
 .trail {
@@ -348,6 +369,27 @@ a {
 }
 
 @media (max-width: 768px) {
+  .SectionHeading {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  .homeSection {
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 1.5rem;
+  }
+  .Home-Left {
+    width: 90%;
+  }
+
+  .About .Container {
+    flex-direction: column;
+  }
+  .AboutLeft,
+  .AboutRight {
+    width: 90%;
+  }
   .Responsivness {
     display: block;
     cursor: pointer;
@@ -361,11 +403,21 @@ a {
   .Navbar {
     flex-direction: column;
   }
+  .mainLogo {
+    text-align: center;
+  }
   .headerMain {
     width: 10rem;
     height: 100vh;
     flex-direction: column;
     position: absolute;
     transition: 0.5s;
+
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
+  .ProjectHeading {
+    margin-top: 1rem;
   }
 }

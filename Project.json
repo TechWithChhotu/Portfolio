@@ -34,6 +34,48 @@
       "DemoWebLink": "",
       "CodeLink": "",
       "data_aos": "fade-right"
+    },
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/12-SelfPortfolio2.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-right"
+    },
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/12-SelfPortfolio2.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-right"
+    },
+    {
+      "Technology": "React",
+      "ProjectDemo": "./Projects/7-MusicWebsite.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-up"
+    },
+    {
+      "Technology": "JS",
+      "ProjectDemo": "./Projects/12-SelfPortfolio2.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-right"
+    },
+    {
+      "Technology": "React",
+      "ProjectDemo": "./Projects/7-MusicWebsite.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-up"
+    },
+    {
+      "Technology": "React",
+      "ProjectDemo": "./Projects/7-MusicWebsite.jpeg",
+      "DemoWebLink": "",
+      "CodeLink": "",
+      "data_aos": "fade-up"
     }
   ]
 }

@@ -98,8 +98,14 @@ const setProject = (Tech) => {
   // implement fetch in Project.json
   fetch("Project.json")
     .then((res) => res.json())
-    .then((data) =>
+    .then((data) => {
       data.Project.map((e) => {
+        // console.log("data.length: ===> ", typeof data);
+        arrayData = Array.from(data);
+        let x = JSON.parse(data);
+
+        console.log("----", x);
+
         if (e.Technology === Tech) {
           ProjectsCard.innerHTML += `<div class="ProjectCard" data-aos=${e.data_aos}>
         <div class="ProjectImage">
@@ -117,8 +123,8 @@ const setProject = (Tech) => {
         </div>
       </div>`;
         }
-      })
-    );
+      });
+    });
 };
 
 let ProjectsCard = document.querySelector(".ProjectsCard");

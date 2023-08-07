@@ -1,0 +1,62 @@
+body {
+  background-color: #6614e9;
+}
+.MainSectionContent {
+  margin-top: 2.8rem;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding-bottom: 2rem;
+}
+.libraryList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.libraryLogo {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 0 5px 5px 0;
+}
+
+.libraryCard {
+  display: flex;
+  align-items: center;
+  width: 700px;
+  border: 2px solid white;
+  border-radius: 5px;
+  min-height: 100px;
+}
+.libraryInfo {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 0.2rem;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+.libraryName {
+  color: white;
+  height: fit-content;
+}
+.libraryName span {
+  font-size: 1rem;
+  font-weight: 400px;
+}
+
+.libraryLink span {
+  color: #aeff00;
+}
+
+.SectionHeading {
+  color: white;
+  border-bottom: 2px solid red;
+  margin: 0.5rem;
+}
